@@ -1,0 +1,21 @@
+{
+    "name": "Switch",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "",
+    "background": {
+        "scripts": [
+            "open.js"
+        ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_title": "Switch.io",
+        "default_popup": "open.html"
+    },
+    "permissions": [
+        "https://*/*",
+        "http://*/*",
+        "tabs"
+    ]
+}
